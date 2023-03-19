@@ -30,3 +30,4 @@ echo json_encode($rates, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 // Get a list of all available currencies
 $currencies = TcmbExchange::getAllCurrencies();
 echo json_encode($currencies, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+```
